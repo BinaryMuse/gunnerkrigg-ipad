@@ -1,0 +1,7 @@
+.container
+  img(src=comic.image)
+  div
+    if comic.prevId
+      a(href="/#{comic.prevId}", style='float: left') Previous
+    if comic.nextId
+      a(href="/#{comic.nextId}", style='float: right') Next
