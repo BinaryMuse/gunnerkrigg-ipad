@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Brandon Tilley",
   "name": "gunnerkrigg-ipad",
   "description": "Gunnerkrigg Court on the iPad",
   "version": "0.0.0",
@@ -10,9 +10,8 @@
     "jsdom": "~0.2.14",
     "coffee-script": "~1.3.3"
   },
-  "devDependencies": {},
-  "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": "0.6.x",
+    "npm": "1.1.x"
   }
 }
