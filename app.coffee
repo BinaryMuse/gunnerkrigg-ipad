@@ -1,6 +1,5 @@
 fs      = require 'fs'
 express = require 'express'
-restler = require 'restler'
 jsdom   = require 'jsdom'
 jQuery  = fs.readFileSync "#{__dirname}/public/jQuery-1.7.2.js", 'utf8'
 

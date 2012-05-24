@@ -4,7 +4,6 @@
   "description": "Gunnerkrigg Court on the iPad",
   "version": "0.0.0",
   "dependencies": {
-    "restler": "~2.0.1",
     "jade": "~0.26.0",
     "express": "~2.5.9",
     "jsdom": "~0.2.14",
