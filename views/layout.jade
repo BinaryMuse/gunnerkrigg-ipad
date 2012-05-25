@@ -5,31 +5,8 @@ html
     meta(name='apple-mobile-web-app-capable', content='yes')
     meta(name='viewport', content='width = device-width, initial-scale = 1.02')
     script(type='text/javascript', src='/jQuery-1.7.2.js')
-    script(type='text/javascript')
-      jQuery(function() {
-        $('a').on('click', function(evt) {
-          evt.preventDefault();
-          window.location = $(evt.target).attr('href');
-          return false;
-        });
-      });
-    style(type='text/css')
-      body {
-        margin: 0;
-        padding: 0;
-        background-color: black;
-        color: white;
-      }
-      .container {
-        width: 600px;
-        margin: 0 auto;
-      }
-      .container div {
-        padding: 5px;
-        height: 30px;
-      }
-      a {
-        color: white;
-      }
+    script(type='text/javascript', src='/jquery.touchSwipe.js')
+    script(type='text/javascript', src='/site.js')
+    link(rel='stylesheet', type='text/css', href='/style.css')
   body
     != body

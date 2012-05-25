@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.images {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.images .left {
+  position: absolute;
+  top: 0;
+  left: -600px;
+}
+
+.images .current {
+  left: 0;
+}
+
+.images .right {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+
+.container div {
+  padding: 5px;
+  height: 30px;
+}
