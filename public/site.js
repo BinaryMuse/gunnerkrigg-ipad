@@ -25,11 +25,11 @@ jQuery(function() {
       moveComics(0, 1000);
     } else if (phase == 'end') {
       if (direction == 'left') {
-        moveComics(-600, 500, function() {
+        moveComics(-600, 350, function() {
           resetComics('right');
         });
       } else if (direction == 'right') {
-        moveComics(600, 500, function() {
+        moveComics(600, 350, function() {
           resetComics('left');
         });
       }
@@ -68,7 +68,9 @@ jQuery(function() {
     $('img').css('-webkit-transition-duration', time + 's');
     $('img').css('-webkit-transform', 'translate3d(' + pos + 'px,0px,0px)');
     if (callback) {
-      callback();
+      setTimeout(function() {
+        callback();
+      }, duration);
     }
   };
 });
